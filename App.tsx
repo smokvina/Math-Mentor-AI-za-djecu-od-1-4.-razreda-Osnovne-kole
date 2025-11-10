@@ -43,7 +43,7 @@ function App() {
   const initialMessage: Message = {
     id: 'init-1',
     sender: 'ai',
-    text: 'Dobar dan. Krećemo s vježbanjem. Očekujem potpunu pažnju.\nPrvi zadatak: Koliko je <strong>5 + 4</strong>?\n\nTrebaš li detaljno objašnjenje?'
+    text: 'Mi smo AI Vijeće Mentora. Postavljat ćemo ti zadatke koje ćeš rješavati u svojoj matematičkoj bilježnici. Važno je da radiš polako, samostalno i bez korištenja mobitela. Nema razloga za strah, mi smo ovdje da ti pomognemo i vodimo te do odličnih ocjena.\n\nSada, odakle želiš krenuti? Napiši razred i naziv gradiva.'
   };
 
   const [messages, setMessages] = useState<Message[]>([initialMessage]);
